@@ -67,7 +67,7 @@ with gr.Blocks(title="Infinity Doctor Consultation") as iface:
     image_input = gr.Image(type="filepath", label="🖼 Upload Affected Area")
 
     transcribed_text = gr.Textbox(label="📄 Transcribed Speech")
-    doctor_reply = gr.Textbox(label="🧠 Doctor's Response")
+    doctor_reply = gr.Textbox(label="🧠 Doctor's Prescription")
     doctor_audio = gr.Audio(type="filepath", label="🔊 Doctor Voice Response")
 
     state = gr.State([])
